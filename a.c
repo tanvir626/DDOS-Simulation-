@@ -7,7 +7,7 @@ int main()
     time_t begin = time(NULL);
     int car;
     car=rsu(111);
-    Attacker=rsu(153);
+    Attacker =rsu(153);
     printf("%d",car);
     time_t end = time(NULL);
     printf("The elapsed time is %ld seconds", (end - begin));
